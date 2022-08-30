@@ -1,7 +1,6 @@
 package view;
 import javax.swing.JOptionPane;
 
-import controller.Controller;
 import controller.RedesController;
 public class Principal {
 
