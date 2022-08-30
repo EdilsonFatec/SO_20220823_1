@@ -42,6 +42,9 @@ public class RedesController {
 				}
 				linha = buffer.readLine();
 			}
+			buffer.close();
+			fluxo.close();
+			leitor.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -69,6 +72,9 @@ public class RedesController {
 				}
 				linha = buffer.readLine();
 			}
+			buffer.close();
+			fluxo.close();
+			leitor.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
